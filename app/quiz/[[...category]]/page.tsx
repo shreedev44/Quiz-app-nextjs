@@ -5,7 +5,7 @@ import Image from "next/image";
 export default async function Quiz({
   params,
 }: {
-  params?: { category: string[] };
+  params?: { category?: string[] };
 }) {
   const param = params?.category?.[0];
   let data;
